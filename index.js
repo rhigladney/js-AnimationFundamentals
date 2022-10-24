@@ -5,7 +5,7 @@ import './style.css';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>Animations are cool! </h1>`;
 
-background(151, 244, 247);
+
 noStroke();
 
 // position of the car
@@ -24,6 +24,8 @@ ellipse(x + 75, 221, 24, 24);
 draw = function() {
 
   //all lines of code will run on repeat
+
+  background(151, 244, 247);
 
 // position of the car
 var x = 281;
